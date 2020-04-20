@@ -201,3 +201,115 @@ body, p, ul, h5 {
 .opening {
   margin-bottom: 1em;
 }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) {
+  #hero {
+    padding: 0.8em 1.2em;
+  }
+
+  #ajira-header-logo {
+    height: 1.3rem;
+  }
+
+  #hero-title {
+    margin-top: 0.8em;
+    font-size: 1.5rem;
+  }
+
+  #hero-subtitle {
+    margin-top: 0.7em;
+    font-size: 0.8rem;
+    width: 100%;
+    line-height: 1.2em;
+  }
+
+  #hero-cta-container {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+
+  #hero-cta-link { 
+    padding: 1em 3.5em;
+    font-size: 1rem;
+  }
+
+  #ajira-culture-container {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  #ajira-culture-body {
+    padding: 0.8em 1.2em;
+  }
+
+  #ajira-culture-header-title {
+    font-size: 1.3rem;
+  }
+
+  #ajira-culture-header-subtitle {
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  #ajira-culture-video {
+    margin: 1em 0;
+  }
+
+  #ajira-culture-video video {
+    width: 80%;
+  }
+  
+  #ajira-culture-values-container {
+    padding: 0.8em 1.2em;
+    margin: 0;
+  }
+
+  #ajira-culture-values {
+    grid-template-columns: 1fr;
+  }
+
+  .ajira-culture-value-icon {
+    display: none;
+  }
+
+  .ajra-culture-value-content {
+    margin-left: 0;
+  }
+
+  .ajira-culture-value-title {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .ajira-culture-value-description {
+    font-size: 0.8rem;
+  }
+
+  #current-openings {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #current-openings-title {
+    font-size: 1.3rem;
+  }
+
+  .current-openings-body {
+    padding: 0;
+    padding-bottom: 2em;
+  }
+
+  .openings-container {
+    margin-top: 1em;
+  }
+
+  .role-title {
+    font-size: 1rem;
+  }
+  
+  .role-location-type {
+    font-size: 0.6rem;
+  }
+}
