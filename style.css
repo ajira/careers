@@ -1,0 +1,203 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Inter var';
+  background-color: #f4f5f7;
+}
+
+body, p, ul, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  padding: 1em 2em;
+}
+
+#ajira-header-logo {
+  width: auto;
+  height: 2rem;
+}
+
+#hero-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+#hero-subtitle {
+  margin-top: 1.5em;
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 2rem;
+  width: 70%
+}
+
+#hero-cta-container {
+  display: flex;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  justify-content: center;
+}
+
+#hero-cta-link {
+  text-decoration: none;
+  border-radius: .375rem;
+  border-color: transparent;
+  padding: 1em 2.5em;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5850ec;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+#hero-cta-link:hover {
+  background-color:#667EEA
+}
+
+#ajira-culture-container {
+  margin-top: 3em;
+  padding: 3em 0;
+  background-color: #fff;
+}
+
+#ajira-culture-body {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#ajira-culture-header {
+  text-align: center;
+}
+
+#ajira-culture-header-title {
+  margin-top: 0.5rem;
+  letter-spacing: -.025em;
+  font-size: 2.25rem;
+  color: #161e2e;
+  line-height: 2.5rem;
+  font-weight: 800;
+}
+
+#ajira-culture-header-subtitle{
+  line-height: 1.75rem;
+  max-width: 42rem;
+  color: #6b7280;
+  font-size: 1.25rem;
+  margin: 1rem auto;
+}
+
+#ajira-culture-values-container {
+  margin-top: 2.5rem;
+  padding: 1em 2em;
+}
+
+#ajira-culture-values {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-column-gap: 2rem;
+  column-gap: 2rem;
+  grid-row-gap: 2.5rem;
+  row-gap: 2.5rem;
+  list-style: none;
+}
+
+.ajira-culture-value {
+  display: flex;
+}
+
+.ajira-culture-value-icon {
+  width: 3rem;
+  height: 3rem;
+  justify-content: center;
+  flex-shrink:0;
+  align-items: center;
+  display: flex;
+  border-radius: .375rem;
+  background-color: #6875f5;
+  color: #fff;
+}
+
+.ajira-culture-value-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.ajra-culture-value-content {
+  margin-left: 1rem;
+}
+
+.ajira-culture-value-title {
+  font-size: 1.125rem;
+  color: #161e2e;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.ajira-culture-value-description {
+  font-size: 1rem;
+  color: #6b7280;
+  line-height: 1.5rem;
+  margin-top: .5rem;
+}
+
+#ajira-culture-video {
+  display: flex;
+}
+
+#ajira-culture-video video{
+  width: 30%; 
+  margin: 0 auto;
+}
+
+#current-openings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#current-openings-title {
+  text-align: center;
+  margin-top: 0.5rem;
+  letter-spacing: -.025em;
+  font-size: 2.25rem;
+  color: #5850ec;
+  line-height: 2.5rem;
+  font-weight: 800;
+}
+
+.current-openings-body {
+  padding: 6em 4em;
+}
+
+.role-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #161e2e;
+  display: block;
+  text-decoration: none;
+}
+
+.role-title:hover {
+  color: #5850ec;
+}
+
+.role-location-type {
+  font-size: 0.8rem;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.opening {
+  margin-bottom: 1em;
+}
