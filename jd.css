@@ -15,7 +15,7 @@ body {
   height: 2rem;
 }
 
-.nav-header, .hero, .pre-requisites {
+.nav-header, .hero, .pre-requisites, .responsibilities-container {
   width: 80%;
   margin: 0 auto;
 }
@@ -124,4 +124,42 @@ body {
 
 .pre-requisites-body p {
   line-height: 1.5em;
+}
+
+.responsibilities-container {
+  margin-top: 1.5em;
+}
+
+.responsibilities-header {
+  font-style: oblique;
+  padding: 2rem 0;
+  letter-spacing: -.025em;
+  font-size: 1.5rem;
+  color: #161e2e;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.responsibilities {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.responsibility {
+  list-style: disc;
+  padding-bottom: 1em;
+  letter-spacing: .025em;
+  line-height: 1.5rem;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) { 
+  .pre-requisites-body, .responsibilities {
+    grid-template-columns: 1fr;
+  }
+  .tag {
+    margin-top: 0.5em;
+  }
 }
