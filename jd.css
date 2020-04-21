@@ -66,15 +66,16 @@ body {
 
 .tags-container {
   margin: 0 auto;
-  margin-top: 1em;
+  margin-top: 0.5em;
   color: #6b7280;
 }
 
 .tag {
   display: inline-block;
-  padding: 0.2em 0.6em;
+  padding: 0.1em 0.4em;
   color: #38B2AC;
   border: 1px solid #38B2AC;
+  margin-top: 0.5em;
 }
 
 .hero-cta-link {
@@ -158,8 +159,5 @@ body {
 @media only screen and (min-device-width: 300px) and (max-device-width: 750px) { 
   .pre-requisites-body, .responsibilities {
     grid-template-columns: 1fr;
-  }
-  .tag {
-    margin-top: 0.5em;
   }
 }
