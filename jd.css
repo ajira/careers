@@ -1,0 +1,127 @@
+body, p, ul, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter var';
+  background-color: #f4f5f7;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+#ajira-header-logo {
+  width: auto;
+  height: 2rem;
+}
+
+.nav-header, .hero, .pre-requisites {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.role-title {
+  letter-spacing: 0.025em;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.role-location-type {
+  font-size: 1.25rem;
+  color: #6b7280;
+}
+
+.checklists {
+  margin-top: 2em;
+}
+
+.checklist {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.checklist p {
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.cta-container {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.cta-post-script {
+  text-align: center;
+  margin-top: 2em;
+  color: #6b7280;
+}
+
+.tags-container {
+  margin: 0 auto;
+  margin-top: 1em;
+  color: #6b7280;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  color: #38B2AC;
+  border: 1px solid #38B2AC;
+}
+
+.hero-cta-link {
+  text-decoration: none;
+  border-radius: .375rem;
+  border-color: transparent;
+  padding: 1em 2.5em;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1A202C;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.hero-cta-link:hover {
+  background-color: #38B2AC
+}
+
+.pre-requisites-container {
+  background-color: #fff;
+}
+
+.pre-requisites-container header {
+  text-align: center;
+}
+
+.pre-requisites-header-title {
+  font-style: oblique;
+  padding: 2rem 0;
+  letter-spacing: -.025em;
+  font-size: 1.5rem;
+  color: #161e2e;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.pre-requisites-body {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.pre-requisites-body p {
+  line-height: 1.5em;
+}
