@@ -2,13 +2,20 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Inter var';
+  font-family: "Inter var";
   background-color: #f4f5f7;
 }
 
-body, p, ul, h5 {
+body,
+p,
+ul,
+h5 {
   margin: 0;
   padding: 0;
+}
+
+#hero {
+  max-width: 1200px;
 }
 
 #hero {
@@ -35,7 +42,7 @@ body, p, ul, h5 {
   margin-right: auto;
   text-align: center;
   line-height: 2rem;
-  width: 70%
+  width: 70%;
 }
 
 #hero-cta-container {
@@ -47,21 +54,22 @@ body, p, ul, h5 {
 
 #hero-cta-link {
   text-decoration: none;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
   border-color: transparent;
   padding: 1em 2.5em;
   font-weight: 500;
   color: #fff;
   cursor: pointer;
-  background-color: #1A202C;
-  transition-timing-function: cubic-bezier(.4,0,.2,1);
-  transition-duration: .15s;
-  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+  background-color: #1a202c;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 #hero-cta-link:hover {
-  background-color:#38B2AC
+  background-color: #38b2ac;
 }
 
 #ajira-culture-container {
@@ -75,20 +83,20 @@ body, p, ul, h5 {
   padding-right: 2rem;
 }
 
-#ajira-culture-header {
+#ajira-culture-header, #ajira-benefits-header {
   text-align: center;
 }
 
-#ajira-culture-header-title {
+#ajira-culture-header-title, #ajira-benefits-header-title {
   margin-top: 0.5rem;
-  letter-spacing: -.025em;
+  letter-spacing: -0.025em;
   font-size: 2.25rem;
   color: #161e2e;
   line-height: 2.5rem;
   font-weight: 800;
 }
 
-#ajira-culture-header-subtitle{
+#ajira-culture-header-subtitle {
   line-height: 1.75rem;
   max-width: 65rem;
   color: #6b7280;
@@ -103,7 +111,7 @@ body, p, ul, h5 {
 
 #ajira-culture-values {
   display: grid;
-  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-column-gap: 2rem;
   column-gap: 2rem;
   grid-row-gap: 2.5rem;
@@ -119,11 +127,11 @@ body, p, ul, h5 {
   width: 3rem;
   height: 3rem;
   justify-content: center;
-  flex-shrink:0;
+  flex-shrink: 0;
   align-items: center;
   display: flex;
-  border-radius: .375rem;
-  background-color: #2D3748;
+  border-radius: 0.375rem;
+  background-color: #2d3748;
   color: #fff;
 }
 
@@ -147,15 +155,15 @@ body, p, ul, h5 {
   font-size: 1rem;
   color: #6b7280;
   line-height: 1.5rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #ajira-culture-video {
   display: flex;
 }
 
-#ajira-culture-video video{
-  width: 30%; 
+#ajira-culture-video video {
+  width: 30%;
   margin: 0 auto;
 }
 
@@ -169,13 +177,13 @@ body, p, ul, h5 {
 #current-openings-title {
   text-align: center;
   margin-top: 0.5rem;
-  letter-spacing: -.025em;
+  letter-spacing: -0.025em;
   font-size: 2.25rem;
-  color: #1A202C;
+  color: #1a202c;
   line-height: 2.5rem;
   font-weight: 800;
   padding: 1em;
-  border-right: 1px solid #6b7280;;
+  border-right: 1px solid #6b7280;
 }
 
 .current-openings-body {
@@ -191,7 +199,7 @@ body, p, ul, h5 {
 }
 
 .role-title:hover {
-  color: #38B2AC;
+  color: #38b2ac;
 }
 
 .role-location-type {
@@ -203,6 +211,34 @@ body, p, ul, h5 {
 
 .opening {
   margin-bottom: 1em;
+}
+
+#current-openings {
+  background-color: #fff;
+}
+
+.benefits-container {
+  padding: 2em 2em;
+}
+
+#benefits-body {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 2em;  
+  padding: 1em 2em;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+  width: 70%;
+}
+
+.benefit {
+  display: flex;
+}
+
+.benefit p {
+  margin-left: 0.5em;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 750px) {
@@ -232,7 +268,7 @@ body, p, ul, h5 {
     width: 100%;
   }
 
-  #hero-cta-link { 
+  #hero-cta-link {
     padding: 1em 3.5em;
     font-size: 1rem;
   }
@@ -263,7 +299,7 @@ body, p, ul, h5 {
   #ajira-culture-video video {
     width: 80%;
   }
-  
+
   #ajira-culture-values-container {
     padding: 0.8em 1.2em;
     margin: 0;
@@ -313,7 +349,7 @@ body, p, ul, h5 {
   .role-title {
     font-size: 1rem;
   }
-  
+
   .role-location-type {
     font-size: 0.6rem;
   }
