@@ -15,10 +15,6 @@ h5 {
 }
 
 #hero {
-  max-width: 1200px;
-}
-
-#hero {
   padding: 1em 2em;
 }
 
@@ -366,5 +362,17 @@ h5 {
 
   .benefit p {
     font-size: 0.8rem;
+  }
+}
+
+
+@media only screen and (min-width: 1300px) { 
+  .benefit {
+    margin-left: 12em;
+  }
+  
+  #ajira-culture-values-container {
+    width: 60%;
+    margin: 2.5rem auto;
   }
 }
