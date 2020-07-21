@@ -168,26 +168,29 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding: 3rem 0;
 }
 
 #current-openings-title {
   text-align: center;
   margin-top: 0.5rem;
+  width: 33%;
   letter-spacing: -0.025em;
   font-size: 2.25rem;
   color: #1a202c;
   font-weight: 800;
-  padding: 2em;
+  padding: 0;
 }
 
 #current-openings-list {
   text-align: center;
   margin-top: 0.5rem;
+  width: 66%;
   letter-spacing: -0.025em;
   font-size: 2.25rem;
   color: #1a202c;
   font-weight: 800;
-  padding: 1em;
+  padding: 0;
 }
 
 .openings-category {
@@ -199,13 +202,15 @@ h5 {
 
 .openings-category-container {
   margin: 0;
-  padding: 0 5rem;
+  padding: 0;
+  width: 50%;
 }
 
 .openings-category-title {
   margin: 0;
-  padding: 0 5rem 0 2rem;
-  font-size: 2rem;
+  padding: 0 0;
+  width: 50%;
+  font-size: 1.9rem;
 }
 
 .openings-role-title {
@@ -347,26 +352,45 @@ h5 {
     text-align: center;
   }
 
+  #current-openings-list {
+    width: 100%;
+  }
+
   #current-openings-title {
     border: none;
     padding: 0;
     font-size: 1.3rem;
+    width: 100%;
+    margin-bottom: 10%;
   }
 
-  .current-openings-body {
+  .openings-category {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
     padding: 0;
-    padding-bottom: 2em;
   }
 
-  .openings-container {
-    margin-top: 1em;
+  .openings-category-title {
+    width: 100%;
+    font-size: 1.2rem;
   }
 
-  .role-title {
-    font-size: 1rem;
+  .openings-category-container {
+    width: 100%;
+    font-size: 1.2rem;
   }
 
-  .role-location-type {
+  .opening {
+    margin: 5% 0%;
+    width: 100%;
+  }
+
+  .openings-role-title {
+    font-size: 0.9rem;
+  }
+
+  .openings-role-location-type {
     font-size: 0.6rem;
   }
 
