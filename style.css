@@ -168,12 +168,11 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding: 3rem 0;
+  padding: 4em 0 5em 0;
 }
 
 #current-openings-title {
   text-align: center;
-  margin-top: 0.5rem;
   width: 33%;
   letter-spacing: -0.025em;
   font-size: 2.25rem;
@@ -184,7 +183,6 @@ h5 {
 
 #current-openings-list {
   text-align: center;
-  margin-top: 0.5rem;
   width: 66%;
   letter-spacing: -0.025em;
   font-size: 2.25rem;
@@ -211,6 +209,11 @@ h5 {
   padding: 0 0;
   width: 50%;
   font-size: 1.9rem;
+}
+
+.opening {
+  margin: 0;
+  padding: 0;
 }
 
 .openings-role-title {
@@ -350,6 +353,7 @@ h5 {
   #current-openings {
     flex-direction: column;
     text-align: center;
+    padding: 2rem 0;
   }
 
   #current-openings-list {
