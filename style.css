@@ -164,49 +164,88 @@ h5 {
 }
 
 #current-openings {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  padding: 4em 0 5em 0;
+  text-align: center;
 }
 
 #current-openings-title {
   text-align: center;
-  margin-top: 0.5rem;
+  width: 33%;
+  display: block;
+  margin: 0 auto 5% auto;
   letter-spacing: -0.025em;
   font-size: 2.25rem;
   color: #1a202c;
-  line-height: 2.5rem;
   font-weight: 800;
-  padding: 1em;
-  border-right: 1px solid #6b7280;
+  padding: 0;
 }
 
-.current-openings-body {
-  padding: 6em 4em;
-}
-
-.role-title {
-  font-weight: 600;
-  font-size: 1.4rem;
-  color: #161e2e;
+#current-openings-list {
+  text-align: center;
+  width: 90%;
   display: block;
-  text-decoration: none;
+  margin: 0 auto;
+  letter-spacing: -0.025em;
+  font-size: 2.25rem;
+  color: #1a202c;
+  font-weight: 800;
+  padding: 0;
 }
 
-.role-title:hover {
-  color: #38b2ac;
-}
-
-.role-location-type {
-  font-size: 0.8rem;
+.openings-category {
   display: inline-block;
-  text-transform: uppercase;
-  color: #6b7280;
+  width: 28%;
+  margin: 0 2%;
+  background-color: white;
+  vertical-align: top;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.openings-category-container {
+  margin: 0 auto;
+  padding: 5% 0% 10% 0%;
+  display: block;
+  width: 100%;
+}
+
+.openings-category-title {
+  margin: 0 auto;
+  padding: 4% 0;
+  width: 100%;
+  display: block;
+  font-size: 1.9rem;
+  background-color: #4A5568;
+  border-radius: 4px 4px 0 0;
+  color: white;
 }
 
 .opening {
-  margin-bottom: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.openings-role-title {
+  font-size: 1.1rem;
+  color: #161e2e;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.openings-role-title:hover {
+  color: #6b7280;
+}
+
+.openings-role-location-type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
 }
 
 #current-openings {
@@ -327,28 +366,48 @@ h5 {
   #current-openings {
     flex-direction: column;
     text-align: center;
+    padding: 2rem 0;
+  }
+
+  #current-openings-list {
+    width: 100%;
   }
 
   #current-openings-title {
     border: none;
     padding: 0;
     font-size: 1.3rem;
+    width: 100%;
+    margin-bottom: 6%;
   }
 
-  .current-openings-body {
+  .openings-category {
+    width: 80%;
+    flex-direction: column;
+    margin: 4% auto;
     padding: 0;
-    padding-bottom: 2em;
   }
 
-  .openings-container {
-    margin-top: 1em;
+  .openings-category-title {
+    width: 100%;
+    font-size: 1.2rem;
   }
 
-  .role-title {
-    font-size: 1rem;
+  .openings-category-container {
+    width: 100%;
+    font-size: 1.2rem;
   }
 
-  .role-location-type {
+  .opening {
+    margin: 5% 0%;
+    width: 100%;
+  }
+
+  .openings-role-title {
+    font-size: 0.9rem;
+  }
+
+  .openings-role-location-type {
     font-size: 0.6rem;
   }
 
